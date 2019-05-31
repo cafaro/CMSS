@@ -5,9 +5,13 @@ CMSS: Sketching Based Reliable Tracking of Large Network Flows
 The Count Min Space Saving algorithm (C++ source code)
 
 This is the C++ source code related to the CMSS (Count Min Space Saving) algorithm for reliable tracking of frequent items (also known as heavy hitters) in data streams.
+
 Usage: cmss [options]
+
 Options include:
+
 -csv = format output as comma separated values. Default = false
+
 -ni = number of items to process. Default = 100000
 -sk = parameter of zipf distribution. 0.0 = uniform. 3+ = skewed. Default = 1.1
 -hz = parameter of hurwitz distribution. Default = 0.0
