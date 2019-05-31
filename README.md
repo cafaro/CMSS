@@ -10,8 +10,7 @@ Usage: cmss [options]
 
 Options include:
 
--csv = format output as comma separated values. Default = false
-
+-csv = format output as comma separated values. Default = false<br>
 -ni = number of items to process. Default = 100000
 -sk = parameter of zipf distribution. 0.0 = uniform. 3+ = skewed. Default = 1.1
 -hz = parameter of hurwitz distribution. Default = 0.0
