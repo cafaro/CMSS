@@ -11,14 +11,14 @@ Usage: cmss [options]
 Options include:
 
 -csv = format output as comma separated values. Default = false<br>
--ni = number of items to process. Default = 100000
--sk = parameter of zipf distribution. 0.0 = uniform. 3+ = skewed. Default = 1.1
--hz = parameter of hurwitz distribution. Default = 0.0
--phi = threshold for heavy hitters. Default = 0.01
--eps = max error allowed (it must be less then the threshold density). Default = 0.001
--p = probability of not exeeding the error. Default = 0.96
--di = number of possible distinct items. Default = 1048575
--sd = number of sketch hash function. Default = derived
--sw = number of sketch buckets. Default = derived
--seed = seed for input stream generation. Default = 16033099
--hseed = seed for hash function generation. Default = 44545
+-ni = number of items to process. Default = 100000<br>
+-sk = parameter of zipf distribution. 0.0 = uniform. 3+ = skewed. Default = 1.1<br>
+-hz = parameter of hurwitz distribution. Default = 0.0<br>
+-phi = threshold for heavy hitters. Default = 0.01<br>
+-eps = max error allowed (it must be less then the threshold density). Default = 0.001<br>
+-p = probability of not exeeding the error. Default = 0.96<br>
+-di = number of possible distinct items. Default = 1048575<br>
+-sd = number of sketch hash function. Default = derived<br>
+-sw = number of sketch buckets. Default = derived<br>
+-seed = seed for input stream generation. Default = 16033099<br>
+-hseed = seed for hash function generation. Default = 44545<br>
