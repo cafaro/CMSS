@@ -22,3 +22,7 @@ Options include:
 -sw = number of sketch buckets. Default = derived<br>
 -seed = seed for input stream generation. Default = 16033099<br>
 -hseed = seed for hash function generation. Default = 44545<br>
+
+If you use this software please cite the following paper:
+
+M. Cafaro, I. Epicoco, M. Pulimeno, “CMSS: Sketching Based Reliable Tracking of Large Network Flows”. Future Generation Computer Systems, Elsevier, Volume 101, 2019, Pages 770-784, ISSN 0167-739X, DOI 10.1016/j.future.2019.07.031
